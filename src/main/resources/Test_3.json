@@ -1,0 +1,66 @@
+{
+  "_comment": "This is the level3 JSON file. You must use this format for your JSON files as we will be using similar formats when marking your assignment. Anything starting with an underscore (like this _comment) should be ignored.",
+  "_stickmanSizeComment": "Your main character can be tiny, normal, large, or giant. What pixel dimensions these match can be up to you.",
+  "_targetfinishTiem" : "This is a time that user has to try beating. After this time it will deduct the current score",
+
+  "targetFinishTime" : 10.0,
+
+  "hero": {
+    "x": 20.0,
+    "xVelocity": 5.0,
+    "size" : "normal"
+  },
+
+  "floorHeight": 450.0,
+  "levelWidth": 5500.0,
+  "levelHeight": 600.0,
+
+  "immovableEntities": [
+
+    {
+      "type": "block",
+      "x": 51.0,
+      "y": 420.0
+    },
+
+    {
+      "type": "block",
+      "x": -10.0,
+      "y": 420.0
+    },
+
+    {
+      "type": "platform",
+      "x": 1100.0,
+      "y": 425.0
+    },
+
+    {
+      "type": "finish_flag",
+      "x": 1900.0,
+      "y": 317.5
+    }
+
+  ],
+
+  "movableEntities": [
+
+    {
+      "type": "cloud",
+      "x": 75.0,
+      "y": 150.0,
+      "xVelocity": 36.7
+    }
+
+  ],
+
+  "enemies": [
+
+    {
+      "type": "slimeR",
+      "x": 400.0
+    }
+
+  ]
+
+}
